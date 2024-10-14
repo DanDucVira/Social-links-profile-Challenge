@@ -46,7 +46,7 @@ li:hover a{
     color:hsl(0, 0%, 8%);
 }
 nav {
-    max-width: 304px;
+    width: 304px;
     text-align: center;
     padding-bottom: 40px;
 
