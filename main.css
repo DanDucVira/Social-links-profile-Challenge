@@ -7,16 +7,86 @@
     color: hsl(228, 45%, 44%);
 }
 
-body{
-    background-color:  hsl(0, 0%, 8%);
+body {
+    background-color: hsl(0, 0%, 8%);
     color: hsl(0, 0%, 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    font-family: "Inter", sans-serif;
 }
-.card-container{
+
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+li {
+    list-style: none;
+    background-color: hsl(0, 0%, 20%);
+    font-size: 14px;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 16px;
+
+}
+
+li:hover {
+    background-color: hsl(75, 94%, 57%);
+
+    
+}
+
+li:hover a{
+    color:hsl(0, 0%, 8%);
+}
+nav {
+    width: 304px;
+    text-align: center;
+    padding-bottom: 40px;
+
+
+}
+
+
+
+.img-container img {
+    max-width: 88px;
+    height: 88px;
+    border-radius: 50%;
+
+}
+
+.img-container {
+    padding-top: 40px;
+    max-width: 88px;
+    height: 88px;
+}
+
+.card-container {
     max-width: 384px;
     background-color: hsl(0, 0%, 12%);
+    padding: 40px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.card-container h1 {
+    font-size: 24px;
+}
+
+.text-container .address {
+    color: hsl(75, 94%, 57%);
+}
+
+footer {
+    margin-top: 25px;
 }
