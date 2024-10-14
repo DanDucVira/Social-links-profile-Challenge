@@ -69,6 +69,7 @@ nav {
 .img-container {
     max-width: 88px;
     height: 88px;
+    margin-top: 24px;
     
 }
 
@@ -90,7 +91,7 @@ nav {
   
 }
 .text-container{
-    padding: 25px;
+    padding: 24px
 }
 
 .text-container .address {
