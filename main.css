@@ -16,6 +16,7 @@ body {
     flex-direction: column;
     height: 100vh;
     font-family: "Inter", sans-serif;
+    font-size: 14px;
 }
 
 a {
@@ -45,7 +46,7 @@ li:hover a{
     color:hsl(0, 0%, 8%);
 }
 nav {
-    width: 304px;
+    max-width: 304px;
     text-align: center;
     padding-bottom: 40px;
 
