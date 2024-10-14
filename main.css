@@ -6,7 +6,10 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
-
+*{
+    margin:0px;
+    padding:0px;
+}
 body {
     background-color: hsl(0, 0%, 8%);
     color: hsl(0, 0%, 100%);
@@ -49,7 +52,7 @@ li:hover a{
 nav {
     width: 304px;
     text-align: center;
-    padding-bottom: 40px;
+   
 
 
 }
@@ -64,9 +67,9 @@ nav {
 }
 
 .img-container {
-    padding-top: 40px;
     max-width: 88px;
     height: 88px;
+    
 }
 
 .card-container {
@@ -84,13 +87,22 @@ nav {
 
 .card-container h1 {
     font-size: 24px;
-    padding-top: 20px;
+  
+}
+.text-container{
+    padding: 25px;
 }
 
 .text-container .address {
     color: hsl(75, 94%, 57%);
     font-weight: 700;
+    font-size: 14px;
     text-align: center;
+    margin-top: 10px;
+
+}
+.text-container p{
+    margin-bottom: 15px;
 }
 
 footer {
