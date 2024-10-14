@@ -43,7 +43,8 @@ li:hover {
 }
 
 li:hover a{
-    color:hsl(0, 0%, 8%);
+    color:hsl(0, 0%, 20%);
+    font-weight: 700;
 }
 nav {
     width: 304px;
@@ -78,14 +79,18 @@ nav {
     justify-content: center;
     align-items: center;
     border-radius: 12px;
+  
 }
 
 .card-container h1 {
     font-size: 24px;
+    padding-top: 20px;
 }
 
 .text-container .address {
     color: hsl(75, 94%, 57%);
+    font-weight: 700;
+    text-align: center;
 }
 
 footer {
